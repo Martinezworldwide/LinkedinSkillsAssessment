@@ -182,8 +182,56 @@ main {
 
 .project,
 .controls,
-.skills-layout {
+.skills-layout,
+.pdf-embed {
   border-top: 1px solid var(--line);
+}
+
+.pdf-embed {
+  display: grid;
+  gap: 18px;
+  padding: 34px 0;
+}
+
+.pdf-embed-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 20px;
+  align-items: end;
+}
+
+.pdf-embed-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.pdf-viewer {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--soft);
+  box-shadow: var(--shadow);
+}
+
+/* Full-width embedded PDF frame for in-browser proof review */
+.pdf-viewer iframe {
+  display: block;
+  width: 100%;
+  min-height: 78vh;
+  border: 0;
+  background: #ffffff;
+}
+
+.pdf-fallback {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.pdf-fallback a {
+  color: var(--blue-dark);
+  font-weight: 700;
 }
 
 .project {
@@ -424,8 +472,17 @@ input[type="search"] {
 
   .hero,
   .project,
-  .skills-layout {
+  .skills-layout,
+  .pdf-embed-header {
     grid-template-columns: 1fr;
+  }
+
+  .pdf-embed-actions {
+    width: 100%;
+  }
+
+  .pdf-viewer iframe {
+    min-height: 62vh;
   }
 
   .hero {
