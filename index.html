@@ -18,6 +18,7 @@
       </a>
       <nav class="nav-links" aria-label="Page sections">
         <a href="#skills">Skills</a>
+        <a href="#document">PDF Document</a>
         <a href="#project">Project Copy</a>
         <a href="#proof">Proof Plan</a>
       </nav>
@@ -33,7 +34,8 @@
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#skills">Browse skills</a>
-            <a class="button secondary" href="LinkedIn_Skills_Assessment_Super_Document.pdf">Open PDF backup</a>
+            <a class="button secondary" href="#document">View PDF document</a>
+            <a class="button secondary" href="LinkedIn_Skills_Assessment_Super_Document.pdf" download>Download PDF</a>
           </div>
         </div>
 
@@ -51,6 +53,43 @@
             <span>visible after filters</span>
           </div>
         </aside>
+      </section>
+
+      <section class="pdf-embed" id="document" aria-label="Proof document viewer">
+        <div class="pdf-embed-header">
+          <div>
+            <h2>LinkedIn Skills Assessment Super Document</h2>
+            <p>
+              Consolidated proof document for the single LinkedIn project. Use this PDF as the
+              attachment backup, or link directly to this page when GitHub Pages is the main proof URL.
+            </p>
+          </div>
+          <div class="pdf-embed-actions">
+            <a
+              class="button primary"
+              href="LinkedIn_Skills_Assessment_Super_Document.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >Open PDF in new tab</a>
+            <a
+              class="button secondary"
+              href="LinkedIn_Skills_Assessment_Super_Document.pdf"
+              download
+            >Download PDF</a>
+          </div>
+        </div>
+        <div class="pdf-viewer">
+          <!-- Embedded PDF viewer for in-page proof document review -->
+          <iframe
+            src="LinkedIn_Skills_Assessment_Super_Document.pdf"
+            title="LinkedIn Skills Assessment Super Document"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <p class="pdf-fallback">
+          If the preview does not load in your browser,
+          <a href="LinkedIn_Skills_Assessment_Super_Document.pdf" target="_blank" rel="noreferrer">open the PDF directly</a>.
+        </p>
       </section>
 
       <section class="project" id="project">
