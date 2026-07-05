@@ -396,18 +396,6 @@ window.SKILLS = [
     "status": "Needs proof URL"
   },
   {
-    "skill": "Advanced Java Compiler",
-    "license": "Project/tool entry",
-    "pricing": "Free if based on open compiler stack; hosting may cost",
-    "platforms": "Web or desktop depending on implementation",
-    "complements": "Java, Spring, Maven",
-    "details": "Compile/run workflows, diagnostics, classpath, syntax/runtime feedback.",
-    "proof": "Add compiler demo URL or GitHub repo",
-    "category": "Software Development",
-    "proofUrl": "",
-    "status": "Needs proof URL"
-  },
-  {
     "skill": "JavaScript",
     "license": "Open web standard",
     "pricing": "Free",
@@ -684,30 +672,6 @@ window.SKILLS = [
     "status": "Needs proof URL"
   },
   {
-    "skill": "Mini Twitter in PHP",
-    "license": "Project entry",
-    "pricing": "Free/open stack if self-built; hosting may cost",
-    "platforms": "Web",
-    "complements": "PHP apps, databases",
-    "details": "User posts, timelines, auth, CRUD, database-backed web app.",
-    "proof": "Add Mini Twitter repo/demo URL",
-    "category": "Software Development",
-    "proofUrl": "",
-    "status": "Needs proof URL"
-  },
-  {
-    "skill": "PHP based app",
-    "license": "Project entry",
-    "pricing": "Free/open stack if self-built; hosting may cost",
-    "platforms": "Web",
-    "complements": "PHP apps",
-    "details": "Reusable PHP app proof: CRUD, forms, database, deployment, documentation.",
-    "proof": "Add PHP app repo/demo URL",
-    "category": "Software Development",
-    "proofUrl": "",
-    "status": "Needs proof URL"
-  },
-  {
     "skill": "Pro Tools",
     "license": "Commercial",
     "pricing": "Subscription/perpetual options vary by plan",
@@ -864,30 +828,6 @@ window.SKILLS = [
     "status": "Needs proof URL"
   },
   {
-    "skill": "Java Spring Boot Compiler",
-    "license": "Project/tool entry",
-    "pricing": "Free/open stack if self-built; hosting may cost",
-    "platforms": "Web or server",
-    "complements": "Java, Spring Boot, Maven",
-    "details": "Compile/run Spring Boot examples, REST endpoints, diagnostics.",
-    "proof": "Add Spring Boot compiler demo/repo URL",
-    "category": "Software Development",
-    "proofUrl": "",
-    "status": "Needs proof URL"
-  },
-  {
-    "skill": "Spring Boot for Java compiler on the web",
-    "license": "Project/tool entry",
-    "pricing": "Free/open stack if self-built; hosting may cost",
-    "platforms": "Web",
-    "complements": "Java, Spring Framework",
-    "details": "Browser-based Spring Boot compile/run proof and documentation.",
-    "proof": "Add web compiler URL",
-    "category": "Software Development",
-    "proofUrl": "",
-    "status": "Needs proof URL"
-  },
-  {
     "skill": "Swift",
     "license": "Open source language with Apple tooling",
     "pricing": "Free Xcode; Apple Developer Program optional",
@@ -967,18 +907,6 @@ window.SKILLS = [
     "complements": "Video editing",
     "details": "Simple timeline editing, cuts, transitions, titles, exports. Note: used in various projects; pseudonym reference belongs only here.",
     "proof": "Add iMovie project sample URL",
-    "category": "Creative Media",
-    "proofUrl": "",
-    "status": "Needs proof URL"
-  },
-  {
-    "skill": "Audio Engineering Essentials",
-    "license": "N/A - skill or standard",
-    "pricing": "Free to learn; paid courses/certs optional",
-    "platforms": "Mac, Windows, studio/live environments",
-    "complements": "Audio production",
-    "details": "Recording, signal flow, editing, EQ, compression, mixing, mastering basics, delivery formats.",
-    "proof": "Add audio sample or session screenshot URL",
     "category": "Creative Media",
     "proofUrl": "",
     "status": "Needs proof URL"
