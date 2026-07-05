@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A consolidated LinkedIn skills assessment portfolio with licenses, pricing notes, supported platforms, complements, details, and proof URL fields."
+    >
+    <title>LinkedIn Skills Assessment Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="LinkedIn Skills Assessment home">
+        <span class="brand-mark">LS</span>
+        <span>LinkedIn Skills Assessment</span>
+      </a>
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#skills">Skills</a>
+        <a href="#project">Project Copy</a>
+        <a href="#proof">Proof Plan</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <h1>Integrated Skills Assessment Portfolio</h1>
+          <p>
+            One consolidated LinkedIn project page for software, cloud, data, creative media,
+            CAD/3D, audio, and business productivity skills.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#skills">Browse skills</a>
+            <a class="button secondary" href="LinkedIn_Skills_Assessment_Super_Document.pdf">Open PDF backup</a>
+          </div>
+        </div>
+
+        <aside class="summary-panel" aria-label="Portfolio summary">
+          <div>
+            <strong id="totalSkills">0</strong>
+            <span>current skill rows</span>
+          </div>
+          <div>
+            <strong id="categoryCount">0</strong>
+            <span>skill categories</span>
+          </div>
+          <div>
+            <strong id="visibleCount">0</strong>
+            <span>visible after filters</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="project" id="project">
+        <div>
+          <h2>One LinkedIn Project To Use</h2>
+          <p>
+            Use this single project to replace the scattered project list. Attach this GitHub Pages
+            link as the main proof page, then add individual demos, repositories, videos, screenshots,
+            documents, dashboards, and audio samples as proof URLs inside each skill row.
+          </p>
+        </div>
+        <div class="project-copy">
+          <label for="projectText">LinkedIn description</label>
+          <textarea id="projectText" readonly>A consolidated skills-assessment project covering software development, creative media, cloud/data tools, CAD/3D, business platforms, audio/video production, and office productivity. This portfolio replaces separate project entries with one organized proof-of-skills catalog.</textarea>
+          <button class="copy-button" type="button" data-copy-target="projectText">Copy description</button>
+        </div>
+      </section>
+
+      <section class="controls" id="skills" aria-label="Skill controls">
+        <div>
+          <h2>Skills Directory</h2>
+          <p>Search by skill, platform, license, complement, or details. Category filters update the count automatically.</p>
+        </div>
+        <div class="search-row">
+          <label class="search-label" for="searchInput">Search skills</label>
+          <input id="searchInput" type="search" placeholder="Search Python, Adobe, AWS, Excel..." autocomplete="off">
+        </div>
+        <div class="filter-row" id="filterRow" aria-label="Category filters"></div>
+      </section>
+
+      <section class="skills-layout">
+        <div class="skills-list" id="skillsList" aria-live="polite"></div>
+        <aside class="proof-panel" id="proof">
+          <h2>Proof URL Plan</h2>
+          <p>
+            Replace placeholder proof text with links to real examples: GitHub repos, demos, PDFs,
+            short videos, screenshots, dashboards, audio clips, certificates, or rendered CAD/3D work.
+          </p>
+          <ul>
+            <li>Use one proof link per strongest skill first.</li>
+            <li>Keep project-style examples as proof links, not separate LinkedIn projects.</li>
+            <li>Delete rows that are not real skills before publishing.</li>
+          </ul>
+          <div class="count-note">
+            <strong>Count note:</strong>
+            <span>The current data file has <span id="countNote">0</span> rows. If the target is 78, remove or merge four rows and the count updates here.</span>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Built for GitHub Pages</span>
+      <span>Last updated from the skills assessment catalog</span>
+    </footer>
+
+    <script src="skills-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
